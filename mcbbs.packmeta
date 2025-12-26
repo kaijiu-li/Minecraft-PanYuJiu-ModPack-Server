@@ -10,7 +10,7 @@
     }
   ],
   "author": "likaijiu",
-  "description": "⚠️本服务器有[Minecraft 统一通行证]正版认证，你需要注册账号并且使用对应的登录方式才能进入服务服(否则验证用户名失败) MINECRAFT 统一通行证 登录注册 https://login.mc-user.com:233/d20f1ab9de1a11f09215e04acd26563f/loginreg",
+  "description": "",
   "fileApi": "https://modpack.minecraft.57016298.xyz",
   "files": [
     {
@@ -70,6 +70,12 @@
     {
       "hash": "ca9417c369e75d38dacdac59937223e5f6adcc18",
       "path": "mods/FarmersDelight-1.20.1-1.2.9.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "38d4ac110b0213d352b1d166f386bac5d719ab65",
+      "path": "mods/ColdSweat-2.4-b06e.jar",
       "force": true,
       "type": "addon"
     },
@@ -530,20 +536,26 @@
       "type": "addon"
     },
     {
+      "hash": "0410ab9636c69324e3671012af64c7743f6d6079",
+      "path": "mods/chat_heads-0.14.2-forge-1.20.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "9a68e328d4bde56528888c97bc5ff6b87a3c45b5",
+      "path": "mods/fiahi-3.1.5.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "hash": "97a282bb3c78d13bf0e2f2a4ea6c5ae5eb854c02",
       "path": "mods/IMBlocker-5.4.6.1-forge+1.17-1.20.4.jar",
       "force": true,
       "type": "addon"
     },
     {
-      "hash": "d4b780795cc111b11c84bbf4cfb05a72f36904e1",
-      "path": "mods/ContingameIME键盘-1.0.7-1.20.1-forge.jar",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "hash": "97a282bb3c78d13bf0e2f2a4ea6c5ae5eb854c02",
-      "path": "mods/IMBlocker键盘-5.4.6.1-forge+1.17-1.20.4.jar",
+      "hash": "1997e5fe2db3a0575ca79bfe4720019f01fd2b8c",
+      "path": "mods/Jade-1.20.1-Forge-11.13.2.jar",
       "force": true,
       "type": "addon"
     },
@@ -554,8 +566,8 @@
       "type": "addon"
     },
     {
-      "hash": "d4b780795cc111b11c84bbf4cfb05a72f36904e1",
-      "path": "mods/ContingameIME-1.0.7-1.20.1-forge.jar",
+      "hash": "896aed39ccc8ecf13936b0b60c9fd55a92a18a6b",
+      "path": "mods/skinlayers3d-forge-1.10.1-mc1.20.1.jar",
       "force": true,
       "type": "addon"
     },
@@ -590,6 +602,12 @@
       "type": "addon"
     },
     {
+      "hash": "3b13f657cc9fceb8c3b518834e9c642d57359ffa",
+      "path": "mods/maidsoulkitchen-1.20.1-alpha-v0.3.0.9-all.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "hash": "aa4456aeeb67a9797b0a07d16bd2c372197ba117",
       "path": "mods/BedBenefits-Forge-1.20.1-13.0.3.jar",
       "force": true,
@@ -598,6 +616,12 @@
     {
       "hash": "173c30c8918da57be9398b3687ea19a81455c2c1",
       "path": "mods/zombieawareness-1.20.1-1.13.1.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "d4b780795cc111b11c84bbf4cfb05a72f36904e1",
+      "path": "mods/ContingameIME-1.0.7-1.20.1-forge.jar",
       "force": true,
       "type": "addon"
     },
@@ -716,8 +740,44 @@
       "type": "addon"
     },
     {
+      "hash": "453df5f607b00b4912d47a22dc096d9063f066d6",
+      "path": "config/zombieawareness/General.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "50677c0b9246408e81028891174433b1139c5683",
+      "path": "config/zombieawareness/ClientConfig.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "7c77d53cdb1144684c0d94352cff04c2f2a2a1a3",
+      "path": "config/zombieawareness/Features.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "097b6322df554aace468cb0d69e220e357576d85",
+      "path": "config/zombieawareness/MobLists.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "817ce4d034620355921c8c9631dbe89328629de7",
+      "path": "config/zombieawareness/PlayerRulesAndLists.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "hash": "241465a6b63fdaebe772ccca454a23e69cf0b6e6",
       "path": "config/zeta-common.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "42e77ad0466220e70f6645aac8f7f96e9dc8329f",
+      "path": "config/bedbenefits.json",
       "force": true,
       "type": "addon"
     },
@@ -1166,6 +1226,102 @@
       "type": "addon"
     },
     {
+      "hash": "0409bf567c810f65ace5888940feab3b3e3917d4",
+      "path": "config/CoroUtil/General.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "6f0ba75b6c148d18b053754e13f8abe4e6037770",
+      "path": "config/lootr-common.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "cba342862623243bf4957ec97fb280705a7e85d4",
+      "path": "config/lootr-client.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "883acefb7cef7ec8b6cca9b91676f93142ee1247",
+      "path": "config/coldsweat/disabled_mods.txt",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "ffbc075cfa9fa1daadecf3ccf43ffe5f0b87482a",
+      "path": "config/coldsweat/client.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "c63a383f701534d0ed7a848978f943523dae04bc",
+      "path": "config/coldsweat/main.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "73ba6fdda5ec74282f82f69d75c3c46fa06c5e61",
+      "path": "config/coldsweat/world.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "3ac40109105831d48ecde8afa838a119879e6fb7",
+      "path": "config/coldsweat/item.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "2b75a792380231a94657a07b612250fde21cb30b",
+      "path": "config/coldsweat/entity.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "a62aac1fd4b446321937cca13cd4393111d634a1",
+      "path": "config/betterdays-client.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "8cc1abbb634be1832d26fb6bcd110b818eb70187",
+      "path": "config/betterdays-common.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "7505f3ec396dcfa82a740e68760d1feac7aecc47",
+      "path": "config/whitenoise-client.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "d978d67cd47b07d288e6ffc5acacc834b654e6a9",
+      "path": "config/somnia-client.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "90ba02b5c49791b0e0b9319ce02c8d5eb39d7d13",
+      "path": "config/somnia-common.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "f5b1681cb73926d59838c245b6a6f6dc920f691d",
+      "path": "config/fiahi-common.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "f133e4212c834ea059704a82a06d5902c3f0427f",
+      "path": "config/kawaii-dishes-common-3.toml.bak",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "hash": "d47d254675d1aee18670aece5ed768e1e631517b",
       "path": "log4j2.xml",
       "force": true,
@@ -1190,7 +1346,7 @@
       "type": "addon"
     },
     {
-      "hash": "58ce3644d233068b8dd14876b2864de5e2b209de",
+      "hash": "593ac65a458b88e27e3f96332ab3e3b41b1dd400",
       "path": "servers.dat",
       "force": true,
       "type": "addon"
