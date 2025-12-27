@@ -10,6 +10,17 @@
 	[ars_nouveau.enchanting_apparatus]
 		enable = true
 
+[maidsoulkitchen_maidsoulkitchen]
+
+	[maidsoulkitchen_maidsoulkitchen.consume_water_from_multi]
+		enable = true
+
+	[maidsoulkitchen_maidsoulkitchen.consume_water_from_single]
+		enable = true
+
+	[maidsoulkitchen_maidsoulkitchen.item_use]
+		enable = true
+
 [maid_storage_manager]
 
 	[maid_storage_manager.smithing]
@@ -40,5 +51,32 @@
 		enable = true
 
 	[maid_storage_manager.stone_cutting]
+		enable = true
+
+[maidsoulkitchen_farmersdelight]
+
+	[maidsoulkitchen_farmersdelight.cutting]
+		enable = true
+
+	[maidsoulkitchen_farmersdelight.campfire_cooking_from_hand]
+		enable = true
+
+	[maidsoulkitchen_farmersdelight.campfire_cooking]
+		enable = true
+
+	[maidsoulkitchen_farmersdelight.cooking]
+		enable = true
+
+	[maidsoulkitchen_farmersdelight.skillet]
+		enable = true
+
+[maidsoulkitchen_miners_delight]
+
+	[maidsoulkitchen_miners_delight.cooking]
+		enable = true
+
+[maidsoulkitchen_vintagedelight]
+
+	[maidsoulkitchen_vintagedelight.fermenting]
 		enable = true
 
